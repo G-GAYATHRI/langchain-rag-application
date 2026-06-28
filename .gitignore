@@ -1,0 +1,28 @@
+ 
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.cpython-311.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Vector database (auto-generated)
+chroma_enron_db/
+chroma_db/
+
+# Dataset (too large)
+emails.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
